@@ -18,11 +18,11 @@ Toralize is a lightweight command-line tool designed to route your HTTP(S) reque
 
 - Ensure you have the **Tor service** installed and running on your machine. You can install it using:
 
-  **Linux**:
-  ```bash
-  sudo apt update && sudo apt install tor
-  ```
-  macOS (using Homebrew):
+**Linux**:
+```bash
+sudo apt update && sudo apt install tor
+```
+macOS (using Homebrew):
 
 ```brew install tor```
 
