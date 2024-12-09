@@ -36,7 +36,7 @@ Installation
 
 Clone the repository and navigate to the project directory:
 ```
-git clone https://github.com/yourusername/toralize.git
+git clone https://github.com/Zer0xC0DE/toralize.git
 cd toralize
 ```
 Run the setup script (if provided) or directly use the script file for execution.
