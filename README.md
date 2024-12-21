@@ -36,8 +36,8 @@ Installation
 
 Clone the repository and navigate to the project directory:
 ```
-git clone https://github.com/Zer0xC0DE/toralize.git
-cd toralize
+git clone https://github.com/0xRavenspar/Toralize.git
+cd Toralize
 ```
 Build
 
