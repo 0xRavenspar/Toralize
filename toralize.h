@@ -37,4 +37,5 @@ struct proxy_response {
 typedef struct proxy_response Res;
 
 Req *request(const char*, const int);
+void printToralizeBanner();
 int main(int, char**);
