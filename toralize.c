@@ -27,6 +27,7 @@ int main(int argc, char *argv[]){
         fprintf(stderr, "Usage: %s <ip_addr> <port_num>\n", argv[0]);
         return 1;
     }
+
     printToralizeBanner();
 
     host = argv[1];
@@ -81,12 +82,9 @@ int main(int argc, char *argv[]){
 }
 
 void printToralizeBanner() {
-    printf("   _______                     _  _         \n");
-    printf("  |__   __|                   | || |        \n");
-    printf("     | |_   _ _ __   __ _  ___| || |_  ___  \n");
-    printf("     | | | | | '_ \\ / _` |/ _ \\__   _|/ _ \\ \n");
-    printf("     | | |_| | | | | (_| |  __/  | | | (_) |\n");
-    printf("     |_|\\__,_|_| |_|\\__, |\\___|  |_|  \\___/ \n");
-    printf("                     __/ |                  \n");
-    printf("                    |___/                   \n");
+    printf(" _____               _ _          \n");
+    printf("|_   _|__  _ __ __ _| (_)_______  \n");
+    printf("  | |/ _ \| '__/ _` | | |_  / _ \ \n");
+    printf("  | | (_) | | | (_| | | |/ /  __/ \n");
+    printf("  |_|\___/|_|  \__,_|_|_/___\___| \n");
 }
