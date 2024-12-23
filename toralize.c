@@ -1,13 +1,5 @@
 #include "toralize.h"
 
-
-
-
-int main() {
-    printToralizeBanner(); // Display ASCII art immediately on program start
-    return 0;
-}
-
 Req *request(const char *dstip, const int dstport){
     Req *req;
 
