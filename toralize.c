@@ -1,5 +1,13 @@
 #include "toralize.h"
 
+
+
+
+int main() {
+    printToralizeBanner(); // Display ASCII art immediately on program start
+    return 0;
+}
+
 Req *request(const char *dstip, const int dstport){
     Req *req;
 
@@ -27,6 +35,7 @@ int main(int argc, char *argv[]){
         fprintf(stderr, "Usage: %s <ip_addr> <port_num>\n", argv[0]);
         return 1;
     }
+    printToralizeBanner();
 
     host = argv[1];
     port = atoi(argv[2]);
@@ -77,4 +86,15 @@ int main(int argc, char *argv[]){
     free(req);
     return 0;
 
+}
+
+void printToralizeBanner() {
+    printf("   _______                     _  _         \n");
+    printf("  |__   __|                   | || |        \n");
+    printf("     | |_   _ _ __   __ _  ___| || |_  ___  \n");
+    printf("     | | | | | '_ \\ / _` |/ _ \\__   _|/ _ \\ \n");
+    printf("     | | |_| | | | | (_| |  __/  | | | (_) |\n");
+    printf("     |_|\\__,_|_| |_|\\__, |\\___|  |_|  \\___/ \n");
+    printf("                     __/ |                  \n");
+    printf("                    |___/                   \n");
 }
